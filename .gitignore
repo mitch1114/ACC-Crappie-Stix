@@ -1,0 +1,13 @@
+# Exported store data and generated import files contain customer PII.
+# They must never be committed to GitHub.
+migration/data/
+migration/output/
+
+# Shopify CLI
+theme/.shopify/
+.shopify/
+
+# OS / editor noise
+.DS_Store
+*.pyc
+__pycache__/
