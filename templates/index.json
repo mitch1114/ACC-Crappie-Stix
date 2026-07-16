@@ -11,12 +11,12 @@
   "sections": {
     "hero_main": {
       "type": "hero",
+      "name": "t:names.hero",
       "blocks": {
         "overline": {
           "type": "text",
-          "name": "Overline",
           "settings": {
-            "text": "<p>THE ULTIMATE CRAPPIE RODS</p>",
+            "text": "<p>RODS &middot; REELS &middot; JIG HEADS &middot; LINE</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -33,11 +33,11 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "name": "Overline"
         },
         "headline": {
           "type": "text",
-          "name": "Headline",
           "settings": {
             "text": "<h1>Feel Every Bite.</h1>",
             "width": "fit-content",
@@ -56,13 +56,13 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "name": "Headline"
         },
         "subhead": {
           "type": "text",
-          "name": "Subheadline",
           "settings": {
-            "text": "<p>Perfectly balanced, ultra-sensitive rods with the backbone to swing slabs into the boat — built by crappie guides with 25 years on the water.</p>",
+            "text": "<p>The complete crappie system — purpose-built by guides with 25 years on the water.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "center",
@@ -79,11 +79,11 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "name": "Subheadline"
         },
         "cta_row": {
           "type": "group",
-          "name": "Buttons",
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": false,
@@ -117,7 +117,7 @@
             "cta_primary": {
               "type": "button",
               "settings": {
-                "label": "Shop All Rods",
+                "label": "Shop Rods",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -130,7 +130,7 @@
             "cta_secondary": {
               "type": "button",
               "settings": {
-                "label": "Shop Best Sellers",
+                "label": "Shop New Arrivals",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button-secondary",
@@ -144,11 +144,11 @@
           "block_order": [
             "cta_primary",
             "cta_secondary"
-          ]
+          ],
+          "name": "Buttons"
         },
         "reassure": {
           "type": "text",
-          "name": "Guarantee note",
           "settings": {
             "text": "<p>100% money-back guarantee · 6-month warranty</p>",
             "width": "fit-content",
@@ -167,7 +167,8 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "name": "Guarantee note"
         }
       },
       "block_order": [
@@ -177,7 +178,6 @@
         "cta_row",
         "reassure"
       ],
-      "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
         "media_type_2": "image",
@@ -192,7 +192,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
         "section_width": "full-width",
-        "section_height": "large",
+        "section_height": "medium",
         "section_height_custom": 50,
         "color_scheme": "scheme-acc-brand",
         "toggle_overlay": true,
@@ -201,12 +201,268 @@
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 100,
-        "padding-block-end": 100
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
+    "shop_categories": {
+      "type": "collection-list",
+      "name": "t:names.collection_list",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Shop by Category</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "sub": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Rods, reels, combos, jig heads, line, and apparel — everything crappie, nothing else.</p>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "heading",
+            "sub"
+          ],
+          "name": "Header"
+        },
+        "card1": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        },
+        "card2": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        },
+        "card3": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        },
+        "card4": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        },
+        "card5": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        },
+        "card6": {
+          "type": "collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "",
+            "placement": "below_image",
+            "inherit_color_scheme": true,
+            "color_scheme": ""
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "h4"
+              }
+            }
+          },
+          "block_order": [
+            "collection-title"
+          ]
+        }
+      },
+      "block_order": [
+        "header",
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6"
+      ],
+      "settings": {
+        "layout_type": "grid",
+        "section_width": "page-width",
+        "carousel_on_mobile": true,
+        "padding-block-start": 48,
+        "padding-block-end": 24
       }
     },
     "trust_marquee": {
       "type": "marquee",
+      "name": "t:names.marquee",
       "blocks": {
         "t1": {
           "type": "text",
@@ -339,23 +595,23 @@
         "t4",
         "i4"
       ],
-      "name": "t:names.marquee",
       "settings": {
         "color_scheme": "scheme-acc-brand"
       }
     },
-    "shop_techniques": {
-      "type": "collection-list",
+    "new_arrivals": {
+      "type": "product-list",
       "blocks": {
-        "header": {
-          "type": "group",
-          "name": "Header",
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
@@ -380,225 +636,160 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "overline": {
-              "type": "text",
+            "product_list_text_YFtzcL": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>SHOP BY TECHNIQUE</p>",
+                "text": "<h2>New Arrivals</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_MWeP9V": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_677WP3": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_YXxMTj": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_JQzVV4": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
                 "type_preset": "h6",
-                "font": "var(--font-subheading--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "uppercase",
-                "wrap": "pretty",
-                "color": "var(--color-primary)",
-                "background": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "heading": {
-              "type": "text",
-              "settings": {
-                "text": "<h2>Built for the way you fish</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
+                "width": "100%",
                 "alignment": "left",
-                "type_preset": "h2",
                 "font": "var(--font-body--family)",
-                "font_size": "",
+                "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
-                "wrap": "pretty",
                 "color": "var(--color-foreground)",
-                "background": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
-            },
-            "sub": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Jigging, casting, dock shooting, trolling, LiveScope — every Stix is purpose-built for a technique, never repurposed. Pick yours.</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "overline",
-            "heading",
-            "sub"
-          ]
-        },
-        "card1": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
-          "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true,
-              "settings": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4"
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
-          ]
-        },
-        "card2": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
-          "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true,
-              "settings": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4"
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
-          ]
-        },
-        "card3": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
-          "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true,
-              "settings": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4"
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
-          ]
-        },
-        "card4": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
-          "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true,
-              "settings": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4"
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
-          ]
-        },
-        "card5": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
-          "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true,
-              "settings": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4"
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
           ]
         }
       },
-      "block_order": [
-        "header",
-        "card1",
-        "card2",
-        "card3",
-        "card4",
-        "card5"
-      ],
-      "name": "t:names.collection_list",
+      "name": "t:names.featured_collection",
       "settings": {
-        "layout_type": "bento",
+        "collection": "all",
+        "layout_type": "grid",
         "carousel_on_mobile": false,
-        "bento_gap": 8,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
         "section_width": "page-width",
-        "padding-block-start": 48,
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
         "padding-block-end": 24
       }
     },
@@ -796,61 +987,60 @@
         "padding-block-end": 48
       }
     },
-    "story_acc": {
+    "split_promos": {
       "type": "section",
+      "name": "t:names.section",
       "blocks": {
-        "media": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "",
-            "image_ratio": "square",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100
-          }
-        },
-        "content": {
+        "tile1": {
           "type": "group",
-          "name": "Content",
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 16,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 10,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
             "video_position": "cover",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "border_radius": 8,
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40,
+            "placeholder": "hero-apparel-1",
+            "toggle_overlay": true,
+            "overlay_color": "#0d0d0d80",
+            "overlay_style": "solid"
           },
           "blocks": {
+            "spacer": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "pixel_size": 120
+              }
+            },
             "overline": {
               "type": "text",
               "settings": {
-                "text": "<p>WHY ACC EXISTS</p>",
+                "text": "<p>FIND YOUR ROD</p>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "h6",
                 "font": "var(--font-subheading--family)",
                 "font_size": "",
@@ -869,18 +1059,18 @@
             "heading": {
               "type": "text",
               "settings": {
-                "text": "<h2>Cheap rods cost you fish.</h2>",
+                "text": "<h3>Shop by Technique</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h2",
+                "alignment": "center",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
-                "color": "var(--color-foreground)",
+                "color": "var(--color-foreground-heading)",
                 "background": false,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -888,13 +1078,13 @@
                 "padding-inline-end": 0
               }
             },
-            "body": {
+            "sub": {
               "type": "text",
               "settings": {
-                "text": "<p>You know the feeling — the limp tip, the missed thump, the slab that spit the jig before you ever felt it. We wasted money on flimsy rods too.</p><p>So after 25 years of guiding, we built the rods we always wanted: perfectly balanced, ultra-sensitive, with the backbone to put slabs in the boat. Thousands of anglers have made the switch.</p>",
+                "text": "<p>Jigging · Casting · Dock shooting · Trolling · LiveScope</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "",
@@ -910,107 +1100,164 @@
                 "padding-inline-end": 0
               }
             },
-            "guarantee": {
-              "type": "text",
+            "btn": {
+              "type": "button",
               "settings": {
-                "text": "<p><strong>Every rod is backed by our 100% money-back guarantee and a 6-month warranty.</strong> If you don't catch more crappie, send it back.</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "ctas": {
-              "type": "group",
-              "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": false,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 16,
+                "label": "Find Your Rod",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "shop": {
-                  "type": "button",
-                  "settings": {
-                    "label": "Shop All Rods",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "button",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  }
-                },
-                "about": {
-                  "type": "button",
-                  "settings": {
-                    "label": "Read Our Story",
-                    "link": "shopify://pages/about-us",
-                    "open_in_new_tab": false,
-                    "style_class": "link",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  }
-                }
-              },
-              "block_order": [
-                "shop",
-                "about"
-              ]
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              }
             }
           },
           "block_order": [
+            "spacer",
             "overline",
             "heading",
-            "body",
-            "guarantee",
-            "ctas"
+            "sub",
+            "btn"
+          ]
+        },
+        "tile2": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40,
+            "placeholder": "hero-apparel-2",
+            "toggle_overlay": true,
+            "overlay_color": "#0d0d0d80",
+            "overlay_style": "solid"
+          },
+          "blocks": {
+            "spacer": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "pixel_size": 120
+              }
+            },
+            "overline": {
+              "type": "text",
+              "settings": {
+                "text": "<p>MATCHED &amp; READY</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h6",
+                "font": "var(--font-subheading--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Rod + Reel Combos</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "sub": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Pairs picked by the pros — grab one and go fish.</p>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "btn": {
+              "type": "button",
+              "settings": {
+                "label": "Shop Combos",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              }
+            }
+          },
+          "block_order": [
+            "spacer",
+            "overline",
+            "heading",
+            "sub",
+            "btn"
           ]
         }
       },
       "block_order": [
-        "media",
-        "content"
+        "tile1",
+        "tile2"
       ],
-      "name": "t:names.section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -1018,10 +1265,10 @@
         "vertical_alignment": "center",
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 48,
+        "gap": 16,
         "section_width": "page-width",
         "section_height": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1029,21 +1276,22 @@
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "padding-block-start": 64,
-        "padding-block-end": 64
+        "padding-block-start": 24,
+        "padding-block-end": 48
       }
     },
-    "plan_steps": {
+    "brand_strip": {
       "type": "section",
+      "name": "t:names.section",
       "blocks": {
         "heading": {
           "type": "text",
           "settings": {
-            "text": "<h2>Catch more crappie in three steps</h2>",
+            "text": "<h3>Built by crappie guides. Backed for real.</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
-            "type_preset": "h2",
+            "type_preset": "h3",
             "font": "var(--font-body--family)",
             "font_size": "",
             "line_height": "normal",
@@ -1058,325 +1306,47 @@
             "padding-inline-end": 0
           }
         },
-        "steps": {
-          "type": "group",
-          "name": "Steps",
+        "sub": {
+          "type": "text",
           "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 32,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
+            "text": "<p>25 years of guiding went into every rod, reel, and jig head we sell — and it's all covered by our 100% money-back guarantee and 6-month warranty.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          },
-          "blocks": {
-            "s1": {
-              "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 10,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "check_box",
-                    "width": 32,
-                    "link": ""
-                  }
-                },
-                "title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<h3>1. Pick your technique</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "body": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Jigging, casting, dock shooting, trolling, or LiveScope — there's a Stix engineered for it.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "icon",
-                "title",
-                "body"
-              ]
-            },
-            "s2": {
-              "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 10,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "ruler",
-                    "width": 32,
-                    "link": ""
-                  }
-                },
-                "title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<h3>2. Match your rod</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "body": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Dial in the length and action for how and where you fish. Not sure? Ask us — we actually answer.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "icon",
-                "title",
-                "body"
-              ]
-            },
-            "s3": {
-              "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 10,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "lightning_bolt",
-                    "width": 32,
-                    "link": ""
-                  }
-                },
-                "title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<h3>3. Feel every bite</h3>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "body": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Load the boat. And if you don't love your Stix, our 100% money-back guarantee has you covered.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "icon",
-                "title",
-                "body"
-              ]
-            }
-          },
-          "block_order": [
-            "s1",
-            "s2",
-            "s3"
-          ]
+          }
+        },
+        "btn": {
+          "type": "button",
+          "settings": {
+            "label": "Our Story",
+            "link": "shopify://pages/about-us",
+            "open_in_new_tab": false,
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          }
         }
       },
       "block_order": [
         "heading",
-        "steps"
+        "sub",
+        "btn"
       ],
-      "name": "t:names.section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1384,10 +1354,10 @@
         "vertical_alignment": "center",
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 40,
+        "gap": 14,
         "section_width": "page-width",
         "section_height": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-acc-brand",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1395,12 +1365,13 @@
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "padding-block-start": 64,
-        "padding-block-end": 64
+        "padding-block-start": 48,
+        "padding-block-end": 48
       }
     },
     "testimonials_acc": {
       "type": "section",
+      "name": "t:names.section",
       "blocks": {
         "overline": {
           "type": "text",
@@ -1448,7 +1419,6 @@
         },
         "row": {
           "type": "group",
-          "name": "Reviews",
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
@@ -1799,7 +1769,8 @@
             "q1",
             "q2",
             "q3"
-          ]
+          ],
+          "name": "Reviews"
         }
       },
       "block_order": [
@@ -1807,7 +1778,6 @@
         "heading",
         "row"
       ],
-      "name": "t:names.section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1826,8 +1796,8 @@
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "padding-block-start": 64,
-        "padding-block-end": 64
+        "padding-block-start": 56,
+        "padding-block-end": 56
       }
     },
     "blog_tips": {
@@ -1895,6 +1865,7 @@
     },
     "email_cta": {
       "type": "section",
+      "name": "t:names.section",
       "blocks": {
         "heading": {
           "type": "text",
@@ -1921,7 +1892,7 @@
         "sub": {
           "type": "text",
           "settings": {
-            "text": "<p>Exclusive deals, new rod drops, and pro crappie tips — straight to your inbox.</p>",
+            "text": "<p>Exclusive deals, new gear drops, and pro crappie tips — straight to your inbox.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "center",
@@ -1981,7 +1952,6 @@
         "email",
         "fine"
       ],
-      "name": "t:names.section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -2007,11 +1977,12 @@
   },
   "order": [
     "hero_main",
+    "shop_categories",
     "trust_marquee",
-    "shop_techniques",
+    "new_arrivals",
     "product_list_fa6P9H",
-    "story_acc",
-    "plan_steps",
+    "split_promos",
+    "brand_strip",
     "testimonials_acc",
     "blog_tips",
     "email_cta"
