@@ -84,7 +84,7 @@
               "type": "text",
               "name": "Text",
               "settings": {
-                "text": "<p>Get exclusive deals and early access to new products.</p>",
+                "text": "<p>Exclusive deals, new rod drops, and crappie fishing tips — straight to your inbox.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -166,7 +166,7 @@
       "settings": {
         "section_width": "page-width",
         "gap": 40,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-acc-brand",
         "padding-block-start": 36,
         "padding-block-end": 36
       }
@@ -177,7 +177,7 @@
         "section_width": "page-width",
         "gap": 24,
         "divider_thickness": 1,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-acc-brand",
         "padding-block-start": 12,
         "padding-block-end": 16
       },
