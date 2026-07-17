@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h1>Page not found</h1>",
+            "text": "<h1>This spot's fished out.</h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -42,7 +42,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>The link may be incorrect, or the page has been removed. </p>",
+            "text": "<p>The page you're looking for moved or doesn't exist. The fish are biting somewhere else — try the shop.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -68,7 +68,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Continue shopping",
+            "label": "Shop All Gear",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",

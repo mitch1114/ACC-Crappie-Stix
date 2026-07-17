@@ -246,6 +246,144 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "trust_guarantee": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "gap": 10,
+                "width": "fill",
+                "height": "fit",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "border": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "icon": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "check_box",
+                    "width": 18,
+                    "link": ""
+                  }
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>100% money-back guarantee</strong> — love it or send it back</p>",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.875rem",
+                    "width": "fit-content",
+                    "alignment": "left",
+                    "color": "var(--color-foreground)"
+                  }
+                }
+              },
+              "block_order": [
+                "icon",
+                "txt"
+              ]
+            },
+            "trust_returns": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "gap": 10,
+                "width": "fill",
+                "height": "fit",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "border": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "icon": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "return",
+                    "width": 18,
+                    "link": ""
+                  }
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>15-day easy returns &amp; exchanges</p>",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.875rem",
+                    "width": "fit-content",
+                    "alignment": "left",
+                    "color": "var(--color-foreground)"
+                  }
+                }
+              },
+              "block_order": [
+                "icon",
+                "txt"
+              ]
+            },
+            "trust_warranty": {
+              "type": "group",
+              "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "gap": 10,
+                "width": "fill",
+                "height": "fit",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "border": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "icon": {
+                  "type": "icon",
+                  "settings": {
+                    "icon": "lock",
+                    "width": 18,
+                    "link": ""
+                  }
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>6-month warranty included</p>",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "0.875rem",
+                    "width": "fit-content",
+                    "alignment": "left",
+                    "color": "var(--color-foreground)"
+                  }
+                }
+              },
+              "block_order": [
+                "icon",
+                "txt"
+              ]
             }
           },
           "block_order": [
@@ -253,6 +391,9 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "trust_guarantee",
+            "trust_returns",
+            "trust_warranty",
             "text_aEtTtq"
           ]
         }
