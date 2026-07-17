@@ -146,37 +146,13 @@
             "cta_secondary"
           ],
           "name": "Buttons"
-        },
-        "reassure": {
-          "type": "text",
-          "settings": {
-            "text": "<p>100% money-back guarantee · 6-month warranty</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "name": "Guarantee note"
         }
       },
       "block_order": [
         "overline",
         "headline",
         "subhead",
-        "cta_row",
-        "reassure"
+        "cta_row"
       ],
       "settings": {
         "media_type_1": "image",
@@ -871,7 +847,7 @@
         "t1": {
           "type": "text",
           "settings": {
-            "text": "<p>100% Money-Back Guarantee</p>",
+            "text": "<p>Feel Every Bite</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -901,7 +877,7 @@
         "t2": {
           "type": "text",
           "settings": {
-            "text": "<p>6-Month Warranty</p>",
+            "text": "<p>Built on 25 Years of Guiding</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -931,7 +907,7 @@
         "t3": {
           "type": "text",
           "settings": {
-            "text": "<p>Built on 25 Years of Guiding</p>",
+            "text": "<p>Purpose-Built for Crappie</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -961,7 +937,7 @@
         "t4": {
           "type": "text",
           "settings": {
-            "text": "<p>Feel Every Bite</p>",
+            "text": "<p>Free 15-Day Returns</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -987,36 +963,6 @@
             "width": 18,
             "link": ""
           }
-        },
-        "t5": {
-          "type": "text",
-          "settings": {
-            "text": "<p>15-Day Easy Returns</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-subheading--family)",
-            "font_size": "1.25rem",
-            "line_height": "tight",
-            "letter_spacing": "loose",
-            "case": "uppercase",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          }
-        },
-        "i5": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "width": 18,
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -1027,9 +973,7 @@
         "t3",
         "i3",
         "t4",
-        "i4",
-        "t5",
-        "i5"
+        "i4"
       ],
       "settings": {
         "color_scheme": "scheme-acc-brand"
@@ -1999,7 +1943,7 @@
                 "title": {
                   "type": "text",
                   "settings": {
-                    "text": "<h3>Zero-risk purchase</h3>",
+                    "text": "<h3>Purpose-built for crappie</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -2021,7 +1965,7 @@
                 "body": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>100% money-back guarantee, 15-day returns, and a 6-month warranty. Don't love it? Send it back.</p>",
+                    "text": "<p>Every length, action, and grip is designed for how crappie anglers actually fish — nothing repurposed from bass gear.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",

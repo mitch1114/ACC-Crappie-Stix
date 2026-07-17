@@ -59,7 +59,7 @@
         "trust_note": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Zero-risk checkout:</strong> 100% money-back guarantee, 15-day returns, and a 6-month warranty on every rod.</p>",
+            "text": "<p>Free returns within 15 days · 6-month warranty against manufacturer's defects</p>",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "0.875rem",

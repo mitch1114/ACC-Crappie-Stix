@@ -17,7 +17,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "100% Money-Back Guarantee on every rod",
+            "text": "Built by crappie guides — 25 years on the water",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
@@ -30,7 +30,7 @@
         "announcement_2": {
           "type": "_announcement",
           "settings": {
-            "text": "15-Day Easy Returns · 6-Month Warranty",
+            "text": "Free returns within 15 days",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
