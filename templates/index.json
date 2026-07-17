@@ -205,93 +205,85 @@
         "padding-block-end": 80
       }
     },
-    "shop_categories": {
-      "type": "collection-list",
-      "name": "t:names.collection_list",
+    "categories_header": {
+      "type": "section",
+      "name": "t:names.section",
       "blocks": {
-        "header": {
-          "type": "group",
+        "heading": {
+          "type": "text",
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 8,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
+            "text": "<h2>Shop by Category</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          },
-          "blocks": {
-            "heading": {
-              "type": "text",
-              "settings": {
-                "text": "<h2>Shop by Category</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h2",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "sub": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Rods, reels, combos, jig heads, line, and apparel — everything crappie, nothing else.</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            }
-          },
-          "block_order": [
-            "heading",
-            "sub"
-          ],
-          "name": "Header"
+          }
         },
+        "sub": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rods, reels, combos, jig heads, line, and apparel — everything crappie, nothing else.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "sub"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 8,
+        "section_width": "page-width",
+        "section_height": "",
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "padding-block-start": 48,
+        "padding-block-end": 0
+      }
+    },
+    "shop_categories": {
+      "type": "collection-list",
+      "name": "t:names.collection_list",
+      "blocks": {
         "card1": {
           "type": "collection-card",
           "name": "t:names.collection_card",
@@ -444,7 +436,6 @@
         }
       },
       "block_order": [
-        "header",
         "card1",
         "card2",
         "card3",
@@ -453,10 +444,14 @@
         "card6"
       ],
       "settings": {
-        "layout_type": "grid",
+        "layout_type": "carousel",
+        "columns": 5,
+        "columns_gap": 8,
+        "mobile_card_size": "60cqw",
+        "icons_style": "arrow",
+        "icons_shape": "circle",
         "section_width": "page-width",
-        "carousel_on_mobile": true,
-        "padding-block-start": 48,
+        "padding-block-start": 16,
         "padding-block-end": 24
       }
     },
@@ -1977,6 +1972,7 @@
   },
   "order": [
     "hero_main",
+    "categories_header",
     "shop_categories",
     "trust_marquee",
     "new_arrivals",
