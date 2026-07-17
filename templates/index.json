@@ -180,6 +180,7 @@
       ],
       "settings": {
         "media_type_1": "image",
+        "image_1": "shopify://shop_images/hero-crappie.jpg",
         "media_type_2": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -285,154 +286,562 @@
       "name": "t:names.collection_list",
       "blocks": {
         "card1": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-rods.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Rods</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Rods"
         },
         "card2": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-reels.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Reels</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Reels"
         },
         "card3": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-combos.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Combos</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Combos"
         },
         "card4": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-jigheads.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Jig Heads</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Jig Heads"
         },
         "card5": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-line.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Line</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Line"
         },
         "card6": {
-          "type": "collection-card",
-          "name": "t:names.collection_card",
+          "type": "group",
           "settings": {
-            "collection": "",
-            "placement": "below_image",
-            "inherit_color_scheme": true,
-            "color_scheme": ""
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-acc-brand",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20,
+            "link": "shopify://collections/all",
+            "background_image": "shopify://shop_images/cat-apparel.jpg"
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "static": true
-            },
-            "collection-title": {
-              "type": "collection-title",
+            "spacer": {
+              "type": "spacer",
               "settings": {
-                "type_preset": "h4"
+                "size": "pixel",
+                "pixel_size": 280
+              }
+            },
+            "label": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Apparel</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "cta": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Shop now →</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               }
             }
           },
           "block_order": [
-            "collection-title"
-          ]
+            "spacer",
+            "label",
+            "cta"
+          ],
+          "name": "Apparel"
         }
       },
       "block_order": [
@@ -1016,7 +1425,7 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "placeholder": "hero-apparel-1",
+            "background_image": "shopify://shop_images/promo-technique.jpg",
             "toggle_overlay": true,
             "overlay_color": "#0d0d0d80",
             "overlay_style": "solid"
@@ -1147,7 +1556,7 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "placeholder": "hero-apparel-2",
+            "background_image": "shopify://shop_images/promo-combos.jpg",
             "toggle_overlay": true,
             "overlay_color": "#0d0d0d80",
             "overlay_style": "solid"
