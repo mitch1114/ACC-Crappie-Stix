@@ -118,7 +118,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop Rods",
-                "link": "shopify://collections/all",
+                "link": "shopify://collections/rods",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -315,7 +315,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/rods",
             "background_image": "shopify://shop_images/cat-rods.jpg"
           },
           "blocks": {
@@ -408,7 +408,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/reels",
             "background_image": "shopify://shop_images/cat-reels.jpg"
           },
           "blocks": {
@@ -501,7 +501,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/rod-reel-combos",
             "background_image": "shopify://shop_images/cat-combos.jpg"
           },
           "blocks": {
@@ -594,7 +594,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/jig-heads",
             "background_image": "shopify://shop_images/cat-jigheads.jpg"
           },
           "blocks": {
@@ -687,7 +687,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/line",
             "background_image": "shopify://shop_images/cat-line.jpg"
           },
           "blocks": {
@@ -780,7 +780,7 @@
             "padding-block-end": 20,
             "padding-inline-start": 20,
             "padding-inline-end": 20,
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/apparel",
             "background_image": "shopify://shop_images/cat-apparel.jpg"
           },
           "blocks": {
@@ -1508,7 +1508,7 @@
               "type": "button",
               "settings": {
                 "label": "Find Your Rod",
-                "link": "shopify://collections/all",
+                "link": "shopify://collections/rods",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -1639,7 +1639,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop Combos",
-                "link": "shopify://collections/all",
+                "link": "shopify://collections/rod-reel-combos",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
