@@ -123,14 +123,14 @@
         "menu_footer": {
           "type": "menu",
           "settings": {
-            "menu": "footer",
-            "heading": "",
+            "menu": "footer-shop",
+            "heading": "Shop",
             "menu_spacing": 12,
             "show_as_accordion": false,
             "accordion_icon": "plus",
             "accordion_dividers": false,
             "inherit_color_scheme": true,
-            "heading_preset": "paragraph",
+            "heading_preset": "h6",
             "link_preset": "paragraph",
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -141,14 +141,32 @@
         "menu_main": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
-            "heading": "",
+            "menu": "footer-support",
+            "heading": "Customer Support",
             "menu_spacing": 12,
             "show_as_accordion": false,
             "accordion_icon": "plus",
             "accordion_dividers": false,
             "inherit_color_scheme": true,
-            "heading_preset": "paragraph",
+            "heading_preset": "h6",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          }
+        },
+        "menu_about": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer-about",
+            "heading": "About ACC",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "plus",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "heading_preset": "h6",
             "link_preset": "paragraph",
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -160,7 +178,8 @@
       "block_order": [
         "group_wErUQf",
         "menu_footer",
-        "menu_main"
+        "menu_main",
+        "menu_about"
       ],
       "name": "t:names.footer",
       "settings": {
